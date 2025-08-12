@@ -2,61 +2,61 @@
 <testng-results ignored="0" total="8" passed="6" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-12T12:40:41 IST" name="APITestSuite" finished-at="2025-08-12T12:40:47 IST" duration-ms="5406">
+  <suite started-at="2025-08-13T00:09:25 IST" name="APITestSuite" finished-at="2025-08-13T00:09:34 IST" duration-ms="8780">
     <groups>
     </groups>
-    <test started-at="2025-08-12T12:40:41 IST" name="ProductAPI" finished-at="2025-08-12T12:40:47 IST" duration-ms="5406">
+    <test started-at="2025-08-13T00:09:25 IST" name="ProductAPI" finished-at="2025-08-13T00:09:34 IST" duration-ms="8780">
       <class name="apitesting.ProductTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:apitesting.ProductTests@3c7f66c4]" started-at="2025-08-12T12:40:42 IST" name="setup" finished-at="2025-08-12T12:40:42 IST" duration-ms="441" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:apitesting.ProductTests@67f639d3]" started-at="2025-08-13T00:09:25 IST" name="setup" finished-at="2025-08-13T00:09:26 IST" duration-ms="995" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addProduct(models.Product)[pri:0, instance:apitesting.ProductTests@3c7f66c4]" started-at="2025-08-12T12:40:42 IST" name="addProduct" data-provider="productData" finished-at="2025-08-12T12:40:44 IST" duration-ms="1703" status="PASS">
+        <test-method signature="addProduct(models.Product)[pri:0, instance:apitesting.ProductTests@67f639d3]" started-at="2025-08-13T00:09:27 IST" name="addProduct" data-provider="productData" finished-at="2025-08-13T00:09:31 IST" duration-ms="3632" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[models.Product@29d37757]]>
+                <![CDATA[models.Product@33a630fa]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProduct -->
-        <test-method signature="addProduct(models.Product)[pri:0, instance:apitesting.ProductTests@3c7f66c4]" started-at="2025-08-12T12:40:44 IST" name="addProduct" data-provider="productData" finished-at="2025-08-12T12:40:45 IST" duration-ms="678" status="PASS">
+        <test-method signature="addProduct(models.Product)[pri:0, instance:apitesting.ProductTests@67f639d3]" started-at="2025-08-13T00:09:31 IST" name="addProduct" data-provider="productData" finished-at="2025-08-13T00:09:31 IST" duration-ms="519" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[models.Product@46468f0]]>
+                <![CDATA[models.Product@72a8361b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProduct -->
-        <test-method signature="addProduct(models.Product)[pri:0, instance:apitesting.ProductTests@3c7f66c4]" started-at="2025-08-12T12:40:45 IST" name="addProduct" data-provider="productData" finished-at="2025-08-12T12:40:45 IST" duration-ms="407" status="PASS">
+        <test-method signature="addProduct(models.Product)[pri:0, instance:apitesting.ProductTests@67f639d3]" started-at="2025-08-13T00:09:31 IST" name="addProduct" data-provider="productData" finished-at="2025-08-13T00:09:32 IST" duration-ms="529" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[models.Product@4b28a7bf]]>
+                <![CDATA[models.Product@23ee2ccf]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProduct -->
-        <test-method signature="deleteProduct()[pri:0, instance:apitesting.ProductTests@3c7f66c4]" started-at="2025-08-12T12:40:45 IST" name="deleteProduct" finished-at="2025-08-12T12:40:45 IST" duration-ms="387" status="PASS">
+        <test-method signature="deleteProduct()[pri:0, instance:apitesting.ProductTests@67f639d3]" started-at="2025-08-13T00:09:32 IST" name="deleteProduct" finished-at="2025-08-13T00:09:32 IST" duration-ms="462" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteProduct -->
-        <test-method signature="updateProduct()[pri:0, instance:apitesting.ProductTests@3c7f66c4]" started-at="2025-08-12T12:40:45 IST" name="updateProduct" finished-at="2025-08-12T12:40:46 IST" duration-ms="403" status="PASS">
+        <test-method signature="updateProduct()[pri:0, instance:apitesting.ProductTests@67f639d3]" started-at="2025-08-13T00:09:32 IST" name="updateProduct" finished-at="2025-08-13T00:09:33 IST" duration-ms="777" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateProduct -->
-        <test-method signature="viewAllProducts()[pri:0, instance:apitesting.ProductTests@3c7f66c4]" started-at="2025-08-12T12:40:46 IST" name="viewAllProducts" finished-at="2025-08-12T12:40:46 IST" duration-ms="397" status="PASS">
+        <test-method signature="viewAllProducts()[pri:0, instance:apitesting.ProductTests@67f639d3]" started-at="2025-08-13T00:09:33 IST" name="viewAllProducts" finished-at="2025-08-13T00:09:33 IST" duration-ms="501" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewAllProducts -->
-        <test-method signature="viewProductById()[pri:0, instance:apitesting.ProductTests@3c7f66c4]" started-at="2025-08-12T12:40:46 IST" name="viewProductById" finished-at="2025-08-12T12:40:47 IST" duration-ms="383" status="FAIL">
+        <test-method signature="viewProductById()[pri:0, instance:apitesting.ProductTests@67f639d3]" started-at="2025-08-13T00:09:33 IST" name="viewProductById" finished-at="2025-08-13T00:09:34 IST" duration-ms="451" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -102,7 +102,7 @@ at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
 at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
 at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
 at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-at apitesting.ProductTests.viewProductById(ProductTests.java:223)
+at apitesting.ProductTests.viewProductById(ProductTests.java:84)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -137,7 +137,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewProductById -->
-        <test-method signature="viewProductByName()[pri:0, instance:apitesting.ProductTests@3c7f66c4]" started-at="2025-08-12T12:40:47 IST" name="viewProductByName" finished-at="2025-08-12T12:40:47 IST" duration-ms="356" status="FAIL">
+        <test-method signature="viewProductByName()[pri:0, instance:apitesting.ProductTests@67f639d3]" started-at="2025-08-13T00:09:34 IST" name="viewProductByName" finished-at="2025-08-13T00:09:34 IST" duration-ms="416" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -181,7 +181,7 @@ at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
 at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
 at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
 at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-at apitesting.ProductTests.viewProductByName(ProductTests.java:239)
+at apitesting.ProductTests.viewProductByName(ProductTests.java:100)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
