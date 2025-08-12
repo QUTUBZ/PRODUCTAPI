@@ -22,28 +22,20 @@ pipeline {
 
         stage('Test') {
             steps {
-                echo 'Running tests (ignoring failures)...'
-                // This ensures even if tests fail, pipeline still passes
-                catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS') {
-                    bat 'mvn test -Dmaven.test.failure.ignore=true'
+                echo 'Running tests (but not failing build if they fail)...'
+                catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
+                    bat 'mvn test'
                 }
-            }
-        }
-
-        stage('Deploy') {
-            steps {
-                echo 'Deploying application...'
-                bat 'mvn deploy -DskipTests'
             }
         }
     }
 
     post {
-        always {
-            echo 'Pipeline execution completed.'
-        }
         success {
-            echo '✅ Build, Test, and Deploy completed successfully (tests may have failed but build passed).'
+            echo '✅ Build and Test completed (tests may have failed, but build succeeded).'
+        }
+        failure {
+            echo '❌ Build failed. Check logs for details.'
         }
     }
 }
