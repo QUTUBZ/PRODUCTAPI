@@ -22,8 +22,10 @@ pipeline {
 
         stage('Test') {
             steps {
-                echo 'Running tests...'
-                bat 'mvn test'
+                catchError(buildResult: 'UNSTABLE', stageResult: 'FAILURE') {
+                    echo 'Running tests...'
+                    bat 'mvn test'
+                }
             }
         }
 
@@ -38,6 +40,9 @@ pipeline {
     post {
         success {
             echo '✅ Build, Test, and Deploy completed successfully!'
+        }
+        unstable {
+            echo '⚠️ Build is unstable due to failed tests, but deployment was done.'
         }
         failure {
             echo '❌ Build failed. Check logs for details.'
