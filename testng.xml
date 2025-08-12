@@ -1,5 +1,8 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="APITestSuite">
+<listeners>
+        <listener class-name="utils.TestListener"/>
+    </listeners>
     <test name="ProductAPI">
         <classes>
             <class name="apitesting.ProductTests" />
