@@ -12,7 +12,7 @@ pipeline {
                 git branch: 'master', url: 'https://github.com/QUTUBZ/PRODUCTAPI.git'
             }
         }
-
+	
         stage('Build') {
             steps {
                 echo 'Building project...'
